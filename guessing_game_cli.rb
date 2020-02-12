@@ -10,6 +10,6 @@ def run_guessing_game
   elsif random_num != get_number
   puts "Sorry! The computer guessed #{random_num}."
   elsif get_number.downcase == "exit"
-  puts "Goodbye"
+  puts "Goodbye!"
   end
 end
